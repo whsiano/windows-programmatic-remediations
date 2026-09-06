@@ -26,8 +26,6 @@
     PS C:\> .\__remediation_template(STIG-ID-WN10-AU-000500).ps1 
 #>
 
-#Requires -RunAsAdministrator
-
 $regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\EventLog\Application"
 
 if (-not (Test-Path $regPath)) {
