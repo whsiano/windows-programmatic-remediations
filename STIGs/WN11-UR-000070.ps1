@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script ensures...
+    This PowerShell script configures the "Deny access to this computer from the network" user right to block network logons from high-privilege domain accounts and local accounts on domain-joined systems, and from unauthenticated Guests access on all systems.
 
 .NOTES
     Author          : Wilson Siano
