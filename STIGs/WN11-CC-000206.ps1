@@ -26,7 +26,7 @@
     PS C:\> .\(STIG-ID-WN11-CC-000206).ps1 
 #>
 
-$regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization"
+$regPath = "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\DeliveryOptimization\Config"
 
 if (-not (Test-Path $regPath)) {
     New-Item -Path $regPath -Force | Out-Null
