@@ -1,6 +1,6 @@
 <#
 .SYNOPSIS
-    This PowerShell script controls how Windows downloads updates — it makes sure the computer isn't sharing or receiving Windows Update files with random devices out on the open internet ("Internet" peer-to-peer mode). Instead, it restricts that update-sharing to only devices on the same local network, which keeps update traffic from leaking outside the organization's own network.
+    This PowerShell script controls how Windows downloads updates — it makes sure the computer isn't sharing or receiving Windows Update files with random devices out on the open internet ("Internet" peer-to-peer mode). Instead, it restricts that update-sharing to only devices on the same local network, which keeps update traffic from leaking outside the organization's own network. (Used for standalone device)
 
 .NOTES
     Author          : Wilson Siano
