@@ -23,7 +23,7 @@
 .USAGE
     Put any usage instructions here.
     Example syntax:
-    PS C:\> .\(WN11-CC-000206).ps1 
+    PS C:\> .\(STIG-ID-WN11-CC-000206).ps1 
 #>
 
 $regPath = "HKLM:\SOFTWARE\Policies\Microsoft\Windows\DeliveryOptimization"
